@@ -22,6 +22,8 @@
 #' audit(mtcars)
 #' audit(airquality)
 #'
+#'
+#'
 #' @export
 #'
 
