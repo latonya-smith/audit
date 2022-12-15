@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of audit is to ...
+The goal of audit is to provide an analysis of a dataframe 
 
 ## Installation
 

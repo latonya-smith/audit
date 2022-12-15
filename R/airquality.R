@@ -16,4 +16,4 @@
 #'   \item{\code{Month}}{numeric. Month(1-12).}
 #'   \item{\code{Day}}{numeric. Day of month (1--31).}
 #' }
-"mtcars"
+"airquality"
