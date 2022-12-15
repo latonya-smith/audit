@@ -1,0 +1,22 @@
+#' @title mtcars Dataset
+#'
+#' @description
+#' A dataframe that is derived from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973–74 models)
+#'
+#' @source
+#' base R
+#'
+#' @format A data frame with 153 rows and 6 columns:
+#' \describe{
+#'   \item{\code{mpg}}{numeric.  Miles/(US) gallon.}
+#'   \item{\code{cyl}}{numeric. Number of cylinders.}
+#'   \item{\code{disp}}{numeric. Displacement (cu.in.).}
+#'   \item{\code{hp}}{numeric. Gross horsepower.}
+#'   \item{\code{drat}}{numeric. Rear axle ratio.}
+#'   \item{\code{wt}}{numeric. Weight (1000 lbs).}
+#'   \item{\code{qsec}}{numeric. 1/4 mile time.}
+#'   \item{\code{vs}}{numeric. Engine (0 = V-shaped, 1 = straight)}
+#'   \item{\code{am}}{numeric. 	Transmission (0 = automatic, 1 = manual)}
+#'   \item{\code{gear}}{numeric. Number of forward gears}
+#' }
+"mtcars"

@@ -1,0 +1,21 @@
+Package: audit
+Title: Audit a dataframe
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Remi", family = "Feuerman", email = "rfeuerman@wesleyan.edu", role = c("aut", "cre")),
+    person(given = "Latonya", family = "Smith", email = "lssmith@wesleyan.edu", role = c("aut")),
+    person(given = "Christina", family = "Xu",email = "cxu@wesleyan.edu", role = c("aut")))
+Description: This package contains a function that audits a dataframe.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.2
+Suggests: 
+    knitr,
+    rmarkdown
+Imports:
+  dplyr
+VignetteBuilder: knitr
+Depends: 
+    R (>= 2.10)
+LazyData: true

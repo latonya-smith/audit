@@ -1,0 +1,21 @@
+---
+title: "Introduction to audit"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to audit}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+The `audit` package is one that is used to do an analysis of the data in a dataframe. It encompases a missing values analysis, a type checking functionality and an outlier checking function as well. The missing values section looks at the rows and columns to see if there is too much missing data based on user input. Then the type checking section, makes sure that the variable type is correct and will suggest edits if the data fits better with a different type. Lastly, the outlier section reports if there are any outliers that should be excluded from the data.
+```{r setup}
+library(audit)
+audit(mtcars)
+audit(airquality)
+```
