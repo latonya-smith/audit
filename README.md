@@ -1,5 +1,4 @@
-R Package - Audit
-# audit
+# R Package - audit
 
 <!-- badges: start -->
 <!-- badges: end -->
